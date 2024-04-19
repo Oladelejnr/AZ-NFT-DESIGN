@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+
+* {
+    font-family: "outfit";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(217, 54%, 11%);
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    width: 375px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 12px;
+}
+.container img {
+    height: auto;
+    padding: 20px ;
+    border-radius: 30px;
+}
+h2 {
+    color: white;
+    margin-left: 20px;
+    padding: 10px;
+}
+p {
+    color: hsl(215, 51%, 70%);
+    padding: 10px;
+    font-size: larger;
+    margin-left: 20px;
+}
+#ETH {
+    color: hsl(178, 100%, 50%);
+    font-size: medium;
+    padding: 0;
+    margin: 0;
+}
+.left img {
+    float: left;
+}
+.avatar img {
+    width: 70px; 
+    border: 50px;
+    border-color: white;   
+}
+h3 {
+    color: white;
+    font-size: medium;
+    font-weight: 300;
+    float: right;
+    padding-left: px;
+}
+h3 span {
+    color: hsl(215, 51%, 70%);
+}
