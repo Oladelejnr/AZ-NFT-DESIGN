@@ -15,46 +15,64 @@ body {
     flex-direction: column;
 }
 .container {
-    width: 375px;
+    max-width: 375px;
     background-color: hsl(216, 50%, 16%);
     border-radius: 12px;
+    justify-content: center;
 }
 .container img {
-    height: auto;
-    padding: 20px ;
-    border-radius: 30px;
+       align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+#pic {
+    padding: 25px;
+    border-radius: 45px;
 }
 h2 {
     color: white;
     margin-left: 20px;
     padding: 10px;
+    font-size: 23px;
+    font-weight: 400;
 }
 p {
     color: hsl(215, 51%, 70%);
-    padding: 10px;
-    font-size: larger;
+    padding: 10px 10px 5px 10px;
+    font-size: large;
     margin-left: 20px;
 }
-#ETH {
-    color: hsl(178, 100%, 50%);
-    font-size: medium;
-    padding: 0;
-    margin: 0;
+.div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
 }
-.left img {
-    float: left;
+#ETH {
+    font-size: medium;
+    color: cyan;
+    
+}
+#time {
+    font-size: medium;
+    color: hsl(215, 51%, 70%);
+}
+.divd {
+    display: flex;
+    flex-direction: row;
+}
+hr {
+    margin: 0px 16px 0px 16px;
 }
 .avatar img {
-    width: 70px; 
-    border: 50px;
-    border-color: white;   
+    width: 40px;
+    padding: 10px;
 }
 h3 {
     color: white;
     font-size: medium;
     font-weight: 300;
-    float: right;
-    padding-left: px;
+    padding: 10px;
 }
 h3 span {
     color: hsl(215, 51%, 70%);
